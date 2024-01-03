@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,262 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.label {
+  font-family: 'Tajawal', sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center; 
+}
+
+
+
+/* Header Block */
+.header {
+  background-color: #4D08A1;
+  height: 300px;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px; 
+  background-size: cover;
+}
+
+/* Header Logo Element */
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 100%; 
+}
+
+/* Header Logo Image Modifier */
+.header__logo-image {
+  width: 300px; 
+  height: 300px; 
+}
+
+
+
+
+/* Footer Block */
+.footer {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer Content Element */
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+/* Footer List Element */
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+/* Footer List Item Element */
+.footer__item {
+  margin-left: 10px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Footer List Item Link Modifier */
+.footer__item a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer__item a:hover {
+  color: #4D08A1;
+}
+
+/* Footer Logo Image Modifier */
+.footer__logo-image {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+}
+
+
+/* SubmitCode Block */
+.submit-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  padding: 20px;
+  max-width: 300px;
+  height: 100px;
+  border-radius: 10px; 
+  margin: auto; 
+  margin-top: 10vh; 
+  background-color: #FE3BDD;
+}
+
+/* SubmitCode Label Element */
+.submit-code__label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Tajawal', sans-serif;
+  color: #fff;
+}
+
+/* SubmitCode Input and Button Container */
+.submit-code__input-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* SubmitCode Input Element */
+.submit-code__input {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+/* SubmitCode Input Element Focus Modifier */
+.submit-code__input:focus {
+  outline: none;
+  opacity: 1;
+}
+
+/* SubmitCode Button Element */
+.submit-code__button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: #4D08A1;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Arrow inside the Button pointing left */
+.submit-code__button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(225deg); 
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+
+
+/* Hover effect for the button */
+.submit-code__button:hover {
+  background-color: #5934a1; 
+}
+
+
+/* MyButton Block
+.new_exam {
+  text-align: center;
+  margin: auto;
+} */
+
+/* MyButton Button Element */
+.new_exam__button {
+  padding: 10px 20px;
+  background-color: #4D08A1;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+/* Hover effect for the button */
+.new_exam__button:hover {
+  background-color: #5934a1;
+}
+
+.box {
+  height: 563px;
+  width: 438px;
+}
+
+.box .vector {
+  height: 564px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 428px;
+}
+
+.home_header {
+  background-color: #4D08A1;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.div_header {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+}
+.home_header__label {
+  font-family: 'Tajawal', sans-serif;
+  color: white;
+  font-size: 100px;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transform: rotate(-15deg);
+  
+}
+
+.home_header__text {
+  font-family: 'Tajawal', sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+.home_header__logo-image {
+  width: 300px;
+  height: 300px;
 }
