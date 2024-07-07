@@ -64,7 +64,8 @@ The website is styled using `index.css`. Ensure your styles are properly scoped 
 
 ## Screenshots
 
-![Alt text](Readme_assets\Screenshot 2024-07-07 085202.png)
+![Alt text](https://github.com/arwaalkhathlan/task-1/blob/dad95b2cb816c6f40fc3cb727405492069591b72/Readme_assets/Screenshot%202024-07-07%20085202.png)
+
 ![Alt text](Readme_assets\Screenshot 2024-07-07 085213.png)
 ![Alt text](Readme_assets\Screenshot 2024-07-07 085220.png)
 
