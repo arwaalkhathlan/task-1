@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Title
 
-In the project directory, you can run:
+Nabeah website
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a simple React-based website designed to provide a user-friendly interface for creating exams. The website includes a header, a footer, and functionality to submit code and create new exams.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Header**: Displays the website logo.
+- **Footer**: Provides links to "Contact Us," "Terms and Conditions," and "About Nabeih" pages, along with the website logo.
+- **Main Content**: Includes components for submitting code, a label, and a button to create a new exam.
+- **Routing**: Uses state management to navigate between pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/react-exam-website.git
+   cd react-exam-website
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
 
-### `npm run eject`
+3. **Run the project**:
+   ```sh
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Components
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Header
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Located in `App.js`, the `Header` component displays the website logo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Footer
 
-## Learn More
+Located in `App.js`, the `Footer` component includes navigation links and the website logo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Box
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Imported from `home_header.js`, this component is displayed at the top of the main content area.
 
-### Code Splitting
+### Submit_code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Imported from `Submit_code.js`, this component is used for submitting code.
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Submit Code**: Use the `Submit_code` component to submit your code.
+- **Create Exam**: Click on the "اصنع اختبار" button to create a new exam. This will set the state `gotopage` to `true`, which can be used for navigation or rendering different components based on the state.
 
-### Making a Progressive Web App
+## Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The website is styled using `index.css`. Ensure your styles are properly scoped to avoid conflicts.
 
-### Advanced Configuration
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Alt text](Readme_assets\Screenshot 2024-07-07 085202.png)
+![Alt text](Readme_assets\Screenshot 2024-07-07 085213.png)
+![Alt text](Readme_assets\Screenshot 2024-07-07 085220.png)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

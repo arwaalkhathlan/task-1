@@ -3,7 +3,6 @@ import logo from "./assets/logo_name.png";
 import Submit_code from "./Submit_code";
 import Box from "./home_header";
 import "./index.css";
-import { Navigate } from "react-router-dom";
 
 function Header() {
   return (
@@ -43,9 +42,6 @@ function App() {
     setgotopage(true);
   };
 
-  if (gotopage) {
-    return <Navigate to="/exam_info_page" />;
-  }
 
   return (
     <div className="Container">
